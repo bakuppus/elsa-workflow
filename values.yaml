@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: elsaworkflows/elsa-dashboard-and-server:latest
+  repository: elsaworkflows/elsa-dashboard-and-server
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
