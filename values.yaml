@@ -8,6 +8,9 @@ image:
   repository: elsaworkflows/elsa-dashboard-and-server
   pullPolicy: IfNotPresent
 
+env:
+  baseaddress: "localhost"
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
