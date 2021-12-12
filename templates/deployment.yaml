@@ -32,7 +32,7 @@ spec:
               containerPort: 80
               protocol: TCP
           env:
-          - name: Elsa__Server__BaseAddress
+          - name: ELSA__SERVER__BASEURL
             value: "{{ .Values.env.baseaddress }}"
           livenessProbe:
             httpGet:
