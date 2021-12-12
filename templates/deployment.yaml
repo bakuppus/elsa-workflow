@@ -33,7 +33,7 @@ spec:
               protocol: TCP
           env:
           - name: Elsa__Server__BaseAddress
-            value: "{{ .Values.env.baseaddress }}
+            value: "{{ .Values.env.baseaddress }}"
           livenessProbe:
             httpGet:
               path: /
